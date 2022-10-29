@@ -1,0 +1,236 @@
+body{
+    font-family: poppins;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+   
+}
+
+.logo
+{
+    margin: 2em 2em 10em 5em;
+    height: 50px;
+    width: 50px;
+}
+.nav{
+    position: absolute;
+    right: 5em;
+    margin-top: 2em;
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    list-style: none;
+}
+.nav a{
+    color: black;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+/* TRBL */
+.ABOUT{
+    margin: 3em 0 2em 3em;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.me{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color: rgb(10, 10, 10);
+
+}
+
+.myImg{
+    margin-left: 4em;
+    padding: 0 0 0 0;;
+    width: 100%;
+}
+.aboutMe{
+    padding-left: 3em;
+    font-size: 1.1em;
+    font-weight: 300;
+    width: 80%;
+    color: rgb(212, 212, 212);
+}
+
+.heythere{
+    color: white;
+    padding-left: 1.2em;
+    padding-top: 1.2em;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.teams{
+    margin-top: 6em;
+    padding: 2em 0em 2em 8em;
+    display: flex;
+    gap : 50px;
+    width: 80%;
+}
+
+.leftTeam{
+
+padding-top: 3em;
+}
+
+.DceiD{
+    width:70%
+}
+
+.temasTitle{
+    font-weight: 500;
+    font-size: 2em;
+}
+.teamSynapse{
+    width: 80%;
+
+}
+.teamDcei{
+    width: 110%;
+
+}
+
+.accomplish{
+    padding: 4em 0em 0 9em;
+    display: flex;
+    gap: 0 400px;
+
+   
+}
+.accTitle{
+    font-size: 2em;
+}
+
+.accDisplay{
+    font-size: 1em;
+    
+}
+
+.Googlecerti{
+    width: 50%;
+}
+
+.workContainer{
+    margin-top: 5em;
+    padding-top: 4em;
+    padding-left: 4em;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 96%;
+    height: 300px;
+    background-color: rgb(46, 50, 49); 
+}
+.whitelogo{
+    padding-top: 4em;
+    padding-right: 4em;
+    width: 120px;
+    height: 120px;
+}
+.workTogather{
+    margin-bottom: 0;
+    height: fit-content;
+    font-size: 3em;
+}
+.workDescription{
+    font-weight: 300;
+    height: fit-content;
+    font-size:1.2em ;
+}
+.worktext{
+    width: 50%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3em ;
+    height: 35vh;
+    margin-top: 6em;
+
+}
+
+.name{
+    font-size:2em ;
+     
+}
+.address{
+    font-size:1em ;
+}
+
+.phone{
+    font-size:1em ;
+}
+
+.social{
+    display: flex;
+    padding-right: 3em ;
+}
+
+.insta{
+    width: 50px;
+}
+.linkedin{
+    width: 50px;
+}
+
+.resume{
+    margin-top: 5em;
+    padding-top: 4em;
+    padding-left: 8em;
+
+}
+
+.myImg{
+    padding: 0;
+}
+
+.love{
+    margin-top: 1em;
+    padding: 0em 0em 0em 8em;
+}
+
+.leftlove{
+    width: 50%;
+
+}
+.rightlove{
+    width: 50%;
+
+}
+
+.loveTitle{
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.orientationTxt{
+    width:100%
+
+}
+.orientation{
+    width: 100%;
+
+}
+
+.galleryL{
+    display: flex;
+    gap: 10px;
+    width: 80%;
+}
+
+.galleryR{
+    padding-top: 5em;
+    display: flex;
+    gap: 10px;
+    width: 64%;
+    
+    
+}

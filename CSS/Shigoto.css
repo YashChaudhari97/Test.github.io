@@ -1,0 +1,389 @@
+body {
+    font-family: poppins;
+
+}
+
+.header {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    height: 100px;
+
+}
+
+.logo {
+    margin: 2em 2em 10em 5em;
+    height: 50px;
+    width: 50px;
+}
+
+.nav {
+    position: absolute;
+    right: 5em;
+    margin-top: 2em;
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav a {
+    color: black;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.HeroImg {
+    width: 100%;
+}
+
+.studyTitle {
+    margin: auto;
+    padding: 3em 0 0;
+    width: 80%;
+    font-size: 4em;
+    font-weight: 400;
+    height: fit-content;
+}
+
+
+
+.myname {
+    font-size: 2em;
+    margin: auto;
+    padding: 1em 0 1em 0;
+    width: 80%;
+    height: fit-content;
+}
+
+.title {
+    word-wrap: break-word;
+}
+.projectIntro{
+    margin: auto;
+    padding: 5em 0 5em 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5%;
+    list-style: none;
+    
+
+}
+
+.introItem {
+    background-color: rgb(212, 212, 212);
+    margin: auto;
+    padding: 2em;
+    width: 80%;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.userResearch {
+    margin: auto;
+    padding: 5em 0 5em 0;
+    width: 60%;
+    text-align: center;
+}
+
+/* --------------------------------------------------------- */
+.h1 {
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.h2 {
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+.h3 {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+/* -------------------------------------------------------------------- */
+.pains {
+    
+    margin: 5em 0 5em 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5%;
+    
+}
+
+.painItem {
+    text-align: center;
+    padding: 0 2em 0 2em;
+    background-color: rgb(212, 212, 212);
+}
+
+.painPoints {
+    margin: auto;
+    width: 80%;
+
+}
+
+/* ----------------------------------------- */
+
+.persona {
+    margin: auto;
+    padding: 5em 0 5em 0;
+    width: 80%;
+
+}
+
+.personstTop {
+    margin: 5em 0 5em 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5%;
+}
+
+.personaBottom {
+    padding: 0 5em 0 0;
+    margin: 0 0 5em 0;
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    gap: 8%;
+}
+
+.personaImg {
+    padding: 2em 0 0 0 ;
+    width: 100%;
+}
+
+
+.siteMap {
+    padding: 5em 0 0 0;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+.userStory{
+    padding: 5em 0 0 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 150px;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+
+    
+}
+
+
+.paperWireframe {
+    display: grid;
+    grid-template-columns: 60% auto;
+    margin: auto;
+    width: 80%;
+
+}
+.paperWireframe .h3{
+    padding: 5em 0 0 0;
+}
+
+.PWFcontainer {
+    padding: 5em 0 5em 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20%;
+}
+
+.paperwireframe {
+    width: 100%;
+}
+
+.jouryMapImg {
+    margin: auto;
+    padding: 5em 0 5em 0;
+    width: 100%;
+}
+
+.digitalWireframe {
+    margin: auto;
+    padding: 5em 0 5em 0;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 100px;
+}
+
+.dwf {
+    width: 100%;
+}
+
+.DWFh3 {
+    padding: 5em 0 3em 0;
+
+}
+
+.DWFcontainer2 {
+    margin: 0 0 0 0;
+}
+
+.LFP {
+    margin: auto;
+    padding: 5em 0 0 0;
+    width: 60%;
+    text-align: center;
+}
+
+.lfpImg {
+    margin: auto;
+    padding: 5em 0 5em 0;
+    width: 100%;
+}
+
+.usabilityStudy {
+    margin: auto;
+    padding: 5em 0 5em 0;
+    width: 60%;
+    text-align: center;
+
+
+}
+
+.rounds {
+
+
+    padding: 5em 0 5em 0;
+    list-style: none;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5%;
+}
+
+.R1 {
+    background-color: rgb(212, 212, 212);
+    padding: 4em;
+    list-style: none;
+    line-height: 2em;
+}
+
+.affinityDigm{
+    width: 100%;
+}
+
+.mockUp {
+    margin: auto;
+    width: 80%;
+}
+
+.mockUp .h1{
+    text-align: center;
+}
+.mockUps{
+    margin: auto;
+    padding: 5em 0 5em 0;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 70% auto;
+    gap: 10% 5%;
+
+}
+.mockUph3 {
+    padding-top: 3em;
+}
+
+.mockupImgs {
+    width: 90%;
+}
+
+.heroMockup {
+    margin: auto;
+    padding: 5em 0 5em 0;
+    width: 100%;
+}
+
+.HFP {
+    margin: auto;
+    padding: 5em 0 5em 0;
+    width: 60%;
+    text-align: center;
+}
+
+.hfpImg {
+    margin: auto;
+    padding: 5em 0 0 0;
+    width: 80%;
+}
+
+.AllyList {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    margin: auto;
+    padding: 0em 0 0 0;
+    width: 80%;
+    text-align: center;
+    list-style: none;
+}
+
+.impact {
+    padding: 5em 0 3em 0; 
+    align-content: center;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.userQuote {
+    text-align: center;
+    margin: auto;
+    padding: 0 0 5em 0;
+
+}
+
+.quote {
+    margin: auto;
+    padding: 5em 0 0 0;
+    width: 60%;
+    font-size: 2em;
+}
+
+.next {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 150px;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+
+}
+
+.thank {
+    margin: auto;
+    padding: 5em 0 0 0;
+    width: 80%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.navLinks a {
+    padding: 0 5em 0 5em;
+    right: 0;
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+}
+
+.navLinks{
+    margin: auto;
+    padding: 5em 5em 5em 5em;
+    display: flex;
+    justify-content: space-between;
+}
